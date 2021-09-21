@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@design-system/*": ["design-system/*"],
+      "@styles/*": ["styles/*"],
+      "@utils/*": ["utils/*"],
+      "@test/*": ["test/*"]
+    },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
